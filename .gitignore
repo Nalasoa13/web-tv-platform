@@ -1,0 +1,67 @@
+# Dépendances
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Fichiers d'environnement
+.env
+.env.local
+.env.*.local
+
+# Fichiers de build
+dist/
+build/
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Fichiers temporaires
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Fichiers de streaming
+/tmp/hls/
+/recordings/
+/uploads/
+
+# Fichiers vidéo
+*.mp4
+*.mkv
+*.flv
+*.ts
+*.m3u8
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Base de données
+*.sql
+*.db
+*.sqlite
+
+# IDE
+.vscode
+.idea
+*.sublime-project
+*.sublime-workspace
+
+# OS
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Fichiers de configuration sensibles
+.env.production
+secrets.json

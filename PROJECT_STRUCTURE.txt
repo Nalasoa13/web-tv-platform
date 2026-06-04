@@ -1,0 +1,46 @@
+[01;34m.[0m
+├── [00mPROJECT_STRUCTURE.txt[0m
+├── [00mPROJECT_SUMMARY.md[0m
+├── [00mREADME.md[0m
+├── [01;34mbackend[0m
+│   ├── [00mDockerfile[0m
+│   ├── [01;34mconfig[0m
+│   │   └── [00mdatabase.js[0m
+│   ├── [01;34mmigrations[0m
+│   │   └── [00minit.js[0m
+│   ├── [00mpackage.json[0m
+│   ├── [01;34mroutes[0m
+│   │   ├── [00madmin.js[0m
+│   │   └── [00mpublic.js[0m
+│   ├── [00mserver.js[0m
+│   └── [01;34mutils[0m
+│       ├── [00merrorHandler.js[0m
+│       └── [00mvalidators.js[0m
+├── [01;34mconfig[0m
+├── [00mdocker-compose.yml[0m
+├── [01;34mdocs[0m
+│   ├── [00mAPI.md[0m
+│   ├── [00mDEPLOYMENT.md[0m
+│   └── [00mINSTALLATION.md[0m
+├── [01;34mfrontend[0m
+│   ├── [00mDockerfile[0m
+│   ├── [00mindex.html[0m
+│   ├── [00mpackage.json[0m
+│   ├── [00mpostcss.config.js[0m
+│   ├── [01;34msrc[0m
+│   │   ├── [00mApp.css[0m
+│   │   ├── [00mApp.jsx[0m
+│   │   ├── [01;34mcomponents[0m
+│   │   ├── [01;34mconstants[0m
+│   │   ├── [01;34mcontext[0m
+│   │   ├── [01;34mhooks[0m
+│   │   ├── [00mindex.css[0m
+│   │   ├── [00mmain.jsx[0m
+│   │   └── [01;34mpages[0m
+│   ├── [00mtailwind.config.js[0m
+│   └── [00mvite.config.js[0m
+├── [01;34mnginx-rtmp[0m
+│   └── [00mnginx.conf[0m
+└── [01;32mstart.sh[0m
+
+16 directories, 28 files
